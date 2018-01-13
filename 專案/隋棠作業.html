@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1 class="title">標題</h1>
+  
+  <!--標題標籤練習-->
+  <h1>我是H1</h1>
+  <h2>我是H2</h2>
+  <h3>我是H3</h3>
+  <h4>我是H4</h4>
+  <h5>我是H5</h5>
+  <h6>我是H6</h6>
+  
+  <hr>
+  <h1 class="title" id="paragraph">段落標籤</h1>
+  
+  <!--段落標籤練習-->
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint consectetur optio consequuntur ut iure voluptates accusantium nemo repellat, ab itaque temporibus perspiciatis molestias sequi! Iure illum aspernatur harum, iste facere.</p>
+  
+  <hr>
+  <h1 class="title">換行標籤</h1>
+  
+  <!--換行標籤練習-->
+  <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Sunt iusto itaque ex dicta neque nemo rerum quod, ipsam debitis recusandae quos culpa perspiciatis deserunt optio tempore! Vero nihil error nemo.</p>
+  
+  <hr>
+  <h1 class="title" id="photo">圖片標籤</h1>
+  
+  <!--圖片標籤練習-->
+
+ 資料夾外層 
+  <img src="../pic1.png" width="200" >
+  <br>
+  資料夾同層 
+  <img src="pic2.png" width="200" >
+  <br>
+ 資料夾子層
+  <img src="img/pic3.png" width="200" >
+  <br>
+ 網路位置
+  <img src="http://a.udn.com/focus/2015/11/03/14078/image/vedio1.jpg" width="200" >
+  <hr>
+  <h1 class="title">連結標籤</h1>
+  
+  <!--連結標籤練習-->
+  內部連結：
+  <ul>
+    <li><a href="#paragraph">回到段落</a> </li>  
+    <li><a href="#">回到頂部</a></li>  
+    <li><a href="#photo">回到圖片</a></li>
+  </ul>
+  <br>
+  外部連結：
+  <ul>
+    <li><a href="https://codepen.io/pen/">Codepen</a> </li>
+    <li><a href="https://google.com" target="_blank">開新分頁去Google囉</a> </li>
+  </ul>
+  <br>
+  <!--圖片連結練習-->
+  <a href=""><img src="pic2.png" alt=""></a>
+  
+  <hr>
+  <h1 class="title">表格</h1>
+  
+  <!--表格練習-->
+  
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>星期1</th>
+      <th>星期2</th>
+      <th>星期3</th>
+    </tr>
+    <tr>
+      <td>內文1</td>
+      <td>內文2</td>
+      <td>內文3</td>
+    </tr>
+    <tr>
+      <td>內文1</td>
+      <td>內文2</td>
+      <td>內文3</td>
+    </tr>
+  </table>
+
+  <br>
+  <!--表格跨列-->
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>星期1</th>
+      <th>星期2</th>
+      <th>星期3</th>
+    </tr>
+    <tr>
+      <td colspan="3">表格跨列</td>
+    </tr>
+    <tr>
+      <td>內文1</td>
+      <td>內文2</td>
+      <td>內文3</td>
+    </tr>
+  </table>
+
+  <br>
+  <!--表格跨欄-->
+    <table border="1" cellpadding="10">
+    <tr>
+      <th>星期1</th>
+      <th>星期2</th>
+      <th>星期3</th>
+    </tr>
+    <tr>
+      <td rowspan="2">表格跨欄</td>
+      <td>內文2</td>
+      <td>內文3</td>
+    </tr>
+    <tr>
+      <td>內文2</td>
+      <td>內文3</td>
+    </tr>
+  </table>
+
+  <hr>
+  <h1 class="title">表單</h1>
+
+  <!--表單練習-->
+  <form action="">
+    姓名：<input type="text">
+    <br>
+    密碼：<input type="password">
+    <br>
+    性別:
+    <input type="radio" name="sex">男
+    <input type="radio" name="sex">女
+    <br>
+    興趣：
+    <input type="checkbox" name="hobby" value="1">吃飯
+    <input type="checkbox" name="hobby" value="2">睡覺
+    <input type="checkbox" name="hobby" value="3">打東東
+    <br>
+    國家：
+    <select name="city" id="">
+      <option value="1">台灣</option>
+      <option value="2">中國</option>
+      <option value="3">外國</option>
+    </select>
+
+    留言區：
+    <textarea name="msg" id="" cols="30" rows="10"></textarea>
+    <br>
+  <input type="submit" value="寫好送出吧">
+  </form>
+  <hr>
+  <h1 class="title">清單</h1>
+
+  <!--項目清單練習-->
+  <ul>
+     <li>我是項目清單</li>
+     <li>我是項目清單</li>
+     <li>我是項目清單</li>
+     <li>我是項目清單</li>
+     <li>我是項目清單</li>
+  </ul>   
+  <!--編號清單練習-->
+  <ol>
+    <li>我是編號[1]</li>
+    <li>我是編號[2]</li>
+    <li>我是編號[3]</li>
+    <li>我是編號[4]</li>
+    <li>我是編號[5]</li>
+  </ol>
+</body>
+</html>

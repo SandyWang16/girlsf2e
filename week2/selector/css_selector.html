@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CSS 選擇器</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .aa{
+      width: 200px;
+      height: 200px;
+      border:1px solid black;
+      margin-bottom: 20px;
+    }
+    
+    .bb{
+      width: 150px;
+      height: 150px;
+      border:1px solid red;
+      color:red;
+    }
+    
+    .cc{
+      width: 60px;
+      height: 60px;
+      border:1px solid green;
+      color:green;
+    }
+    
+    .dd{
+      width: 60px;
+      height: 60px;
+      border:1px solid blue;
+      color:blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="aa" id="first" name="one">
+    <span>aa-first</span>
+    <div class="bb">
+      <span class="B_span">bb</span>
+      <div class="cc">
+        <span>cc</span>
+      </div>
+      <div class="dd">
+        <span>dd</span>
+      </div>
+    </div>
+  </div>
+  <div class="aa" id="second" name="two">
+    <span>aa-second</span>
+    <div class="bb">
+      <span class="B_span">bb</span>
+      <div class="cc">
+        <span>cc</span>
+      </div>
+      <div class="dd">
+        <span>dd</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
