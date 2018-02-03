@@ -1,0 +1,78 @@
+/*@media ＲＷＤ設定*/
+
+		@media screen and (min-width:992px) {
+			.banner1{
+				height: 520px;
+			}
+
+		}
+
+
+
+
+		@media screen and (min-width:768px) {
+
+			.banner1{
+				height:400px;
+			}
+
+			
+		}
+
+
+
+
+
+		@media screen and (max-width:768px) {
+			
+
+			.logo{
+				height: 38px;
+			}
+
+
+			.bannerContent{
+				color: rgb(51 79 121);
+				
+				background-color: #fff;
+				margin-top: 20px;
+
+			}
+			
+			.banner1{
+				height: 300px;
+			}
+
+			h3{
+				font-size: 14px;
+			}
+
+			h2{
+				font-size: 16px;
+
+			}
+
+			b{
+				font-size: 19px;
+				font-weight: 500;
+			}
+			
+
+			button {
+		
+			}
+
+
+
+			.img1{
+				background-position: center;
+				width: 355px;
+			}
+
+			.menutxt{
+				display: none;
+			}
+
+
+		}
+

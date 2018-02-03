@@ -1,0 +1,441 @@
+/*	頁籤目錄*/	
+	*{
+		margin: 0;
+		padding: 0;
+/*		box-sizing: border-box;*/
+
+	}
+
+		.nav-bar{
+	
+		}
+
+
+
+		.menutxt {
+			background-color: #e1e1e1;
+			
+		}
+		
+		.menutxt ul{
+
+
+
+		}
+
+
+		.menutxt li{
+			line-height: 42px;
+			padding-left: 5px;
+			padding-right: 10px;
+			display: inline-block;
+			
+		}
+
+		a {	
+			font-weight: 500;
+			text-decoration: none;
+			color: #000;
+
+
+		}
+
+		.blue-button{
+			width: 100%;
+			height: 42px;
+			background-color: #33507a;
+		}
+
+
+
+/*	第一banner區塊*/	
+		.banner1{
+			background-color: #999;
+			padding-top:0;
+			margin-top: 0;
+			/*把圖做在背景*/
+			background-image: url("https://livedemo00-opencart.template-help.com/opencart_prod-13098/image/cache/catalog/slide-2-1170x520.jpg"); 
+			height: 520px;
+			background-size:cover;
+			-webkit-background-size:cover ;
+			background-position: center;
+		}
+
+
+		img{
+			width: 100%;
+
+		}
+
+		.bannerContent{
+			position: absolute;
+			top: calc(50% - 125px) ;
+
+			color: #33507a;
+			text-align: center;
+		}
+			
+		h3{
+			font-size: 14px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		
+		}
+
+		h2{
+			font-size: 46px;
+			font-weight: 300;
+	
+		}
+		
+		b{
+			font-size: 46px;
+			font-weight: 500;
+		}
+
+		button{	
+			background-color:#9fccc5;
+			border-color: #9fccc5;
+			padding: 12px 10px 11px 10px; 
+			color: #fff;
+		}
+
+
+/*	第二串banner區塊*/
+		.content1 {
+			padding-top: 20px;
+		}
+
+		
+		.card{
+			padding-left: 20px;
+			padding-bottom: 20px;
+
+		}
+
+		.img1{
+			background-image: url(https://livedemo00-opencart.template-help.com/opencart_prod-13098/image/cache/catalog/banner-1-270x322.jpg);
+			height: 322px;
+			background-size:cover;
+			-webkit-background-size:cover ;
+			background-position: center;
+		}
+
+		.txtContent{
+			position: relative;
+			top: 160px;
+			margin-left: 20px;
+			margin-right: 20px;
+			padding: 15px;
+			color: #fff;
+			background-color: rgba(51,79,121,.8);
+			text-transform:uppercase;
+		}
+
+		h4{
+			font-size: 14px;
+		}
+/*第三串banner區塊 開始*/
+
+		.content2{
+			margin-top: 20px;
+		}
+
+
+
+		.content2Left{
+			border: 2px solid #f3f3f3;
+
+		}
+
+		.timeArea{
+			color: #fff;
+			background-color: rgb(51,79,121);
+			text-align: center;
+			width: 100%;
+		}
+
+
+		.timeCentent{
+
+		}
+
+		.timeArea p{
+			font-size: 15px;
+			padding: 20px;
+		}
+		
+
+
+		.timeImg{
+			width: 100%;
+			height: 200px;
+			overflow: hidden;
+		}
+
+
+		
+		.title{
+			text-align: center;
+			padding-bottom: 20px;
+
+		}
+
+
+		.content2Right{
+		
+
+		}
+		
+		.box-tabs {
+			float: right;
+			padding-bottom: 0;
+
+
+		}
+
+		.box-tabs ul{
+			text-align: right;
+		}
+
+		.box-tabs li{
+			display: inline-block;
+			padding-left: 20px;
+		}
+
+
+
+		.card3{
+			padding-left: 15px;
+			position: relative;	
+		}
+		
+		.icon{
+			width: 40px;
+			height: 40px;
+			border-radius: 50px;
+			background-color: #000;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			color:#fff;
+			font-size: 13px;
+			text-align: center;
+			line-height: 40px;
+		}
+		.icon2{
+			width: 40px;
+			height: 40px;
+			border-radius: 50px;
+			background-color: #f23225;
+			position: absolute;
+			top: 10px;
+			left: 25px;
+			color:#fff;
+			font-size: 13px;
+			text-align: center;
+			line-height: 40px;
+		}
+
+
+		.img2{
+			background-image: url("https://livedemo00-opencart.template-help.com/opencart_prod-13098/image/cache/catalog/products/product-43-266x257.png");
+			height: 260px;
+			background-size:cover;
+			-webkit-background-size:cover ;
+			background-position: center;
+			border: 2px solid #f3f3f3;
+			background-color: #fff;	
+
+
+		}
+
+		.txtContent2{
+			position: absolute;
+			top: 250px;
+			margin-right: 20px;
+			padding: 15px;
+			color: #000;
+			text-transform:uppercase;
+		}
+
+
+		.line-button{
+			border-color: #9fccc5;
+			background-color: #fff;
+			color: #000;
+		}
+
+		.font15{
+			font-size: 18px;
+		}
+
+
+
+/*	第4  banner區塊*/	
+		.banner4{
+			background-color: #999;
+			margin-top: 20px;
+			/*把圖做在背景*/
+			background-image: url("https://livedemo00-opencart.template-help.com/opencart_prod-13098/image/cache/catalog/parallax-1-1170x800.jpg"); 
+			height: 340px;
+			background-size:cover;
+			-webkit-background-size:cover ;
+			background-position: center;
+		}
+
+		
+
+		.bannerContent4{
+			position: absolute;
+			top: calc(50% - 122px) ;
+
+			padding: 10px 60px;
+			background-color: rgba(51,79,121,.8);
+			text-transform:uppercase;
+			color: #fff;
+			text-align: center;
+
+		}
+			
+
+
+/*第五串 banner區塊 開始-*/
+
+		.content5{
+			margin-top: 15px;			
+		}
+
+
+		.card5{
+			padding-right: 15px;
+			position: relative;	
+		}	
+
+		.icon5{
+			width: 40px;
+			height: 40px;
+			border-radius: 50px;
+			background-color: #000;
+			position: absolute;
+			top: 10px;
+			right: 25px;
+			color:#fff;
+			font-size: 13px;
+			text-align: center;
+			line-height: 40px;
+		}
+		.icon5-2{
+			width: 40px;
+			height: 40px;
+			border-radius: 50px;
+			background-color: #f23225;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			color:#fff;
+			font-size: 13px;
+			text-align: center;
+			line-height: 40px;
+		}
+
+
+		.clear{
+			clear: both;
+		}
+
+/*第六串 banner區塊 開始*/
+		.content6 {
+			margin-top: 150px;
+		}
+
+
+		.img6 {
+			background-image: url(https://livedemo00-opencart.template-help.com/opencart_prod-13098/image/cache/catalog/blog/post-9-370x247.jpg);
+			height: 247px;
+			width: 375px;
+			background-size:cover;
+			-webkit-background-size:cover ;
+			background-position: center;
+			position: relative;
+		}	
+
+		.txtContent6{
+			position: absolute;
+			bottom: 20px;
+			color: #fff;
+			width: 100%;
+			padding: 10px 15px 10px 20px;
+			background-color: rgba(51,79,121,.8);
+			text-transform:uppercase;
+		}
+
+
+		 .p-title a{
+			color: #fff;
+			padding-right: 20px;
+		}
+
+
+
+
+
+
+/*@media ＲＷＤ設定*/
+
+		@media screen and (min-width:900px) {
+			.banner1{
+				height: 520px;
+			}
+
+		}
+
+
+		@media screen and (max-width:767px) {
+			
+
+			.logo{
+				height: 35px;
+			}
+
+
+			.bannerContent{
+				color: rgb(51 79 121);
+				
+				background-color: #fff;
+				margin-top: 20px;
+
+			}
+			
+			.banner1{
+				height: 300px;
+			}
+
+			h3{
+				font-size: 14px;
+			}
+
+			h2{
+				font-size: 16px;
+
+			}
+
+			b{
+				font-size: 19px;
+				font-weight: 500;
+			}
+
+
+
+			.img1{
+				background-position: center;
+				width: 355px;
+			}
+
+			.menutxt{
+				display: none;
+			}
+
+
+		}
+
