@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.all{
+			width: 606px;
+			position: absolute;
+			top: 20px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+
+		.middle{
+			width: 300px;
+			display: inline-block;
+		}
+		.leftImg{
+			width: 100%;
+			height: 600px;
+			background-color: #000;
+		}
+		.right .small{
+			width: 100%;
+			height: 300px;
+		}
+		.top{
+			background-color: #efefef;
+		}
+		.bottom{
+			background-color: #ffffcc;
+		}
+		
+		@media screen and (max-width:900px) {
+			body{
+				background: pink;
+			}
+
+			.all{
+				width: 80%;
+			}
+
+			.middle{
+				display: block;
+				width: 100%;
+			}
+
+
+
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="all">
+		<div class="middle left">
+			<div class="leftImg"></div>
+		</div>
+		<div class="middle right">
+			<div class="small top"></div>
+			<div class="small bottom"></div>
+		</div>
+	</div>
+	
+</body>
+</html>

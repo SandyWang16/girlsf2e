@@ -1,0 +1,50 @@
+
+#contentWrapper {
+	margin:0 auto;
+	width:90vw;
+}
+
+#contentWrapper ul li {
+	width:40vw;
+	height:40vw;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transition:opacity .6s ease-in-out;
+	-moz-transition:opacity .6s ease-in-out;
+	-o-transition:opacity .6s ease-in-out;
+	-ms-transition:opacity .6s ease-in-out;
+	transition:opacity .6s ease-in-out;
+}
+
+#contentWrapper ul li:hover {
+	cursor:pointer;
+	opacity:.9;
+}
+
+#contentWrapper ul li {
+	display:inline-block;
+}
+
+#lightbox {
+	display: none;
+	position: fixed;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width:90vw;
+	height:90vh;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#dark {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background:rgba(0,0,0,.9);
+	width:100vw;
+	height:100vh;
+}
